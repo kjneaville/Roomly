@@ -1,0 +1,13 @@
+<ion-item-sliding #item>
+    <ion-item>
+      Today, 10:00 PM - 11:00 PM
+    </ion-item>
+    <ion-item-options side="left">
+      <button ion-button (click)="favorite(item)">More Info</button>
+      <button ion-button color="danger" (click)="share(item)">Deny</button>
+    </ion-item-options>
+
+    <ion-item-options side="right">
+      <button ion-button (click)="unread(item)">Unread</button>
+    </ion-item-options>
+  </ion-item-sliding>

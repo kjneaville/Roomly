@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Create Request</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ul>
+    <li>
+      <h3>Room:</h3>
+      <select>
+        <option value="primaryRoom">Room Name</option>
+      </select>
+    </li>
+    <li>
+      <h3>Start Time:</h3>
+      <input type="datetime-local" name="bdaytime">
+    </li>
+    <li>
+      <h3>End Time:</h3>
+      <input type="datetime-local" name="bdaytime">
+    </li>
+    <li>
+      <h3>Critical</h3>
+      <input type="checkbox" name="critical" value="critical"><br>
+    </li>
+    <li>
+      <h3>Reason:</h3>
+      <input type="text" placeholder="Optional"><br>
+    </li>
+    <li>
+      <h3>Reward:</h3>
+      <select>
+        <option value="">None</option>
+        <option value="">Time</option>
+        <option value="">Money</option>
+        <option value="">Other</option>
+      </select>
+    </li>
+  </ul>
+  <br>
+  <div id="submitRequest">
+    <input type="submit" value="Submit">
+  </div>
+</ion-content>

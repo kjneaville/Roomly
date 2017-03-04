@@ -1,0 +1,18 @@
+{"req": {
+  "id": "1111111",
+  "creator": "a8GJ7mds",
+  "approve": false,
+  "content": {
+    "roomId": 123123,
+    "roomName": "Pledge Quad",
+    "start": "October 13, 2014 11:00:00",
+    "end": "October 13, 2014 11:30:00",
+    "critical": false,
+    "reason": null,
+    "reward": {
+    	"time": null, // or 60
+    	"money": null, // or 5.00
+    	"other": null //or "Text"
+    }
+  }
+}}
